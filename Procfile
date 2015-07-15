@@ -1,1 +1,1 @@
-web: ruby server.rb/public/ -p $PORT
+web: ruby server.rb -p $PORT

@@ -1,5 +1,8 @@
 require "sinatra"
 
+get "/" do
+  redirect '/hello.txt'
+end
 
 # def hello
 #   "Welome to Jeff's first website!"
