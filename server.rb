@@ -8,16 +8,16 @@ get "/" do
 
   # ticker = gets.chomp
 
-  url3 = "http://finance.yahoo.com/q?s=aapl"
-
-  response3 = HTTParty.get url3
-
-  dom3 = Nokogiri::HTML(response3.body)
-
-  stock_price3 = dom3.xpath('//*[@id="yfs_l84_aapl"]').first.content
-
-
-   "Your stock is at $ #{stock_price3}"
+  # url3 = "http://finance.yahoo.com/q?s=aapl"
+  #
+  # response3 = HTTParty.get url3
+  #
+  # dom3 = Nokogiri::HTML(response3.body)
+  #
+  # stock_price3 = dom3.xpath('//*[@id="yfs_l84_aapl"]').first.content
+  #
+  #
+  #  "Your stock is at $ #{stock_price3}"
 
    # These code snippets use an open-source library.
 response = HTTParty.get "https://ronreiter-meme-generator.p.mashape.com/meme?bottom=is+DOPE&font=Impact&font_size=50&meme=Condescending+Wonka&top=MY+WEBSITE",
