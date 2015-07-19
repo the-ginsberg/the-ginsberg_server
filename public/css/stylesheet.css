@@ -1,0 +1,127 @@
+body {
+  background: url("../images/ckNzM.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.headshot img{
+float: left;
+margin: .5em 1em;
+width: 220px;
+height: 220px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+border: solid rgba(10, 180, 250, 1);
+}
+
+
+.bio {
+margin: .5em 0em;
+padding: .5em;
+background-color: rgba(190, 190, 190, .35);
+float: left;
+border: solid rgba(10, 180, 250, 1);
+border-radius: 30px;
+}
+
+#name {
+margin: -.5px;
+color: rgba(10,180,250,1);
+font-size: 38px;
+font-family: 'Audiowide', cursive;
+}
+
+#bio {
+margin: -.5px;
+color: rgba(10,180,250,1);
+font-size: 16px;
+font-family: 'Audiowide', cursive;
+}
+
+.extendedbio {
+  margin: 7em -20em;
+  padding: .8em;
+  height: 5em;
+  float: left;
+  border: solid rgba(10, 180, 250, 1);
+  border-radius: 30px;
+  background-color: rgba(190, 190, 190, .35);
+}
+
+.extended {
+  margin: -.1em;
+  padding: 0.1em;
+  color: rgba(10,180,250,1);
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+.footer {
+  list-style-type: none;
+  display: inline-block;
+  clear: both;
+  margin: 0em 0em 1em 0em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.contact {
+  clear: both;
+  float: left;
+  position: fixed;
+  margin: 1em 28em;
+  padding: .8em;
+  bottom: 0;
+  left: 0;
+  border: solid rgba(255, 110, 0, 1);
+  border-radius: 30px;
+  height: 4.5em;
+  background-color: rgba(255, 120, 0, .35);
+}
+
+#ctinfo {
+  margin: -.2em;
+  color: rgba(160, 255, 20, 1);
+  font-size: 24px;
+  font-family: font-family: 'Indie Flower', cursive;
+  font-variant: inherit;
+  text-decoration: underline;
+}
+
+#ctinfo1 {
+  margin: -.1em;
+  color: rgba(160, 255, 20, 1);
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.image {
+  height: 75px;
+  padding: 5px;
+  position: static;
+}
+
+.image:hover {
+  background-color: red;
+}
+
+.contact:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.bio:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.extendedbio:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
